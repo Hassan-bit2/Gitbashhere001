@@ -1,0 +1,20 @@
+input{
+    padding: 10px 25px;
+    background-color: red;
+    color: rgb(10, 111, 10);
+    font-weight: bolder;
+    cursor: pointer;
+    transition-property: padding;
+    transition-duration: 2s;
+    transition: all 1s ease-in-out;
+    /* transition-timing-function: 1s ease-in-out 2s; */
+    border-radius: 20px;
+}
+input:hover{
+    padding: 15px 30px;
+    font-size: larger;
+    transform: rotate(360deg); 
+    /* transform: scale(1); */
+    color: lightgreen;
+    border: 10px solid orange;
+}
